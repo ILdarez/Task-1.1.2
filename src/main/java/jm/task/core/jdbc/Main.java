@@ -15,14 +15,14 @@ public class Main {
 
         userDao.createUsersTable();
 
-        userDao.saveUser("Федот", "LastName1", (byte) 44);
-        userDao.saveUser("Евграф", "LastName2", (byte) 55);
-        userDao.saveUser("Инокентий", "LastName3", (byte) 31);
-        userDao.saveUser("Аристарх", "LastName4", (byte) 37);
+        userDao.saveUser("Федот", "Первый", (byte) 44);
+        userDao.saveUser("Евграф", "Второй", (byte) 55);
+        userDao.saveUser("Инокентий", "Третий", (byte) 31);
+        userDao.saveUser("Аристарх", "Четвертый", (byte) 37);
 
         userDao.removeUserById(2);
         userDao.getAllUsers();
         userDao.cleanUsersTable();
-        userDao.dropUsersTable();  // реализуйте алгоритм здесь
+        userDao.dropUsersTable();
     }
 }
