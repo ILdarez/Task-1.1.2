@@ -6,7 +6,7 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-target/
-.idea/
+/target/
+/.idea/
 *.log
 *.tmp
