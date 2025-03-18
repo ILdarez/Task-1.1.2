@@ -9,10 +9,6 @@ public class Util {
     private static final String USERNAME = "ILdar";
     private static final String PASSWORD = "root";
 
-    private Util() {
-
-    }
-
     public static Connection getConnection() {
         Connection connection = null;
         try {
